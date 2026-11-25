@@ -21,9 +21,9 @@ $ cat focus.txt
 - Writing Python tools for log analysis, network monitoring and threat-intel enrichment
 - Next: red team fundamentals and my first offensive certification
 
-## Course projects
+## Projects by course
 
-One project per course in my cybersecurity program at ITHS, in the order I take them. Every project runs in my homelab and builds on the one before.
+Personal projects I build alongside my cybersecurity program at ITHS, one for each course, in the order I take them. They are not school assignments. Every project runs in my homelab and builds on the one before.
 
 | Course | Period | Project | What it does | Stack | Status |
 |---|---|---|---|---|---|
@@ -37,9 +37,9 @@ One project per course in my cybersecurity program at ITHS, in the order I take 
 | Digital forensics | Summer-Autumn 2027 | `timeline-forge` | Builds forensic timelines from lab logs with chain-of-custody hashing | Python, Plaso, Timesketch | Planned |
 | Incident response | Autumn 2027 | `ir-playbooks` | Simulated attack, detection and full incident report following NIST 800-61 | Atomic Red Team, Sigma, Wazuh | Planned |
 
-## Own projects
+## Other projects
 
-Outside the curriculum.
+Not tied to any course.
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
