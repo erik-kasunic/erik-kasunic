@@ -50,6 +50,7 @@ One project per course in my cybersecurity program, in the order I take them. Ev
 
 Building hands-on skills in Linux, Windows Server, networking, troubleshooting and security analysis through studies at IT-Högskolan, while also trying to complete KTH’s technical foundation year.
 Especially interested in SOC analysis and incident response, with the goal of growing into advanced security roles and working as a security consultant.
+
 Before moving into IT, I worked in logistics at Posti Group, where I stepped in as acting team leader co-leading daily operations for around 50 people across two departments. That taught me to follow clear procedures, prioritize under pressure and keep things running when something goes wrong.
 
 Seeking an internship (LIA) from fall 2027 and always happy to connect with peers and professionals in the field.
