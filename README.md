@@ -17,7 +17,7 @@ $ cat focus.txt
 
 ## What I'm working on
 
-- Building a detection lab: Wazuh SIEM, Linux/Windows endpoints and a Raspberry Pi sensor
+- Building a detection lab: Wazuh SIEM, Linux/Windows endpoints and a Raspberry Pi attack box to generate real attack traffic
 - Writing Python tools for log analysis, network monitoring and threat-intel enrichment
 - Next: red team fundamentals and my first offensive certification
 
@@ -29,13 +29,13 @@ Personal projects I build alongside my cybersecurity program at ITHS, one for ea
 |---|---|---|---|---|---|
 | Operating systems: Linux & Windows | Autumn 2026 | `logsentry` | Detects brute force, new accounts and file changes in Linux and Windows logs | Python, PowerShell, Sigma, MITRE ATT&CK | Planned |
 | Python | Autumn 2026 | `pysec-toolkit` | Port scanner, password checker and hash tool in one tested CLI | Python, pytest, GitHub Actions | Planned |
-| Networking | Autumn 2026 | `packetwatch` | Packet sniffer and lightweight IDS on a Raspberry Pi | Python, Scapy, Wireshark | Planned |
+| Networking | Autumn 2026 | `packetwatch` | Packet sniffer and lightweight IDS, running on a VM or laptop for now (Raspberry Pi sensor later) | Python, Scapy, Wireshark | Planned |
 | Virtualization & cloud | Winter 2027 | `wazuh-lab` | Wazuh SIEM with custom detection rules, deployed with Infrastructure as Code | Docker, Terraform, Wazuh | Planned |
 | Cryptology | Spring 2027 | `cryptvault` | File encryption with AES-256-GCM and Argon2id, with a documented threat model | Python, cryptography | Planned |
 | Malware analysis | Spring 2027 | `phishscope` | Analyzes phishing emails, extracts IOCs and enriches them with threat intel | Python, VirusTotal API, YARA | Planned |
 | Threat intelligence | Spring 2027 | `threatpulse` | Tracks new CVEs and CISA KEV, matches them to my lab and writes a digest | Python, NVD API, CISA KEV | Planned |
 | Digital forensics | Summer-Autumn 2027 | `timeline-forge` | Builds forensic timelines from lab logs with chain-of-custody hashing | Python, Plaso, Timesketch | Planned |
-| Incident response | Autumn 2027 | `ir-playbooks` | Simulated attack, detection and full incident report following NIST 800-61 | Atomic Red Team, Sigma, Wazuh | Planned |
+| Incident response | Autumn 2027 | `ir-playbooks` | Simulated attack from a Raspberry Pi against the lab (Atomic Red Team, Kali), detection and full incident report following NIST 800-61 | Atomic Red Team, Kali, Sigma, Wazuh | Planned |
 
 ## Other projects
 
@@ -45,7 +45,7 @@ Not tied to any course.
 |---|---|---|---|
 | `SentinelGrid` | SOC investigation platform: enriches IPs, domains and hashes from free threat-intel sources and scores the risk | TypeScript, React, Supabase, Groq | In progress |
 | `homelab` | My SOC lab: architecture, configs and write-ups | VMware, Raspberry Pi, Linux, Windows | Planned |
-| Red team track | `webscan`, a web vulnerability scanner for lab targets, then eJPT or PNPT | Python, OWASP Top 10 | Planned |
+| Red team track | `webscan`, a web vulnerability scanner for lab targets, run from a Raspberry Pi attack box, then eJPT or PNPT | Python, Kali, OWASP Top 10 | Planned |
 
 ## Skills
 
